@@ -280,7 +280,7 @@ UK-wide.</h2>				</div>
 					<h2 class="elementor-heading-title elementor-size-default">FAST &amp; SECURE DELIVERY
 </h2>				</div>
 				<div class="elementor-element elementor-element-d4aaf65 text elementor-widget elementor-widget-text-editor" data-id="d4aaf65" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>We understand that every delivery matters. Whether itâ€™s an urgent same-day shipment or a scheduled business delivery, we ensure your goods are transported quickly, securely, and with complete peace of mind.</p>								</div>
+									<p>We understand that every delivery matters. Whether it’s an urgent same-day shipment or a scheduled business delivery, we ensure your goods are transported quickly, securely, and with complete peace of mind.</p>								</div>
 				</div>
 		<div class="elementor-element elementor-element-dc84ec4 e-con-full container e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no elementor-invisible e-con e-child" data-id="dc84ec4" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
 				<div class="elementor-element elementor-element-7cbc61d icon elementor-view-default elementor-widget elementor-widget-icon" data-id="7cbc61d" data-element_type="widget" data-e-type="widget" data-widget_type="icon.default">
@@ -292,7 +292,7 @@ UK-wide.</h2>				</div>
 				<div class="elementor-element elementor-element-6a67325 heading elementor-widget elementor-widget-heading" data-id="6a67325" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 					<h2 class="elementor-heading-title elementor-size-default">FULLY INSURED &amp; TRACKED</h2>				</div>
 				<div class="elementor-element elementor-element-febb761 text elementor-widget elementor-widget-text-editor" data-id="febb761" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>All consignments are fully insured for maximum protection. With real-time GPS tracking, you stay updated on your deliveryâ€™s journey from collection to final drop-off.</p>								</div>
+									<p>All consignments are fully insured for maximum protection. With real-time GPS tracking, you stay updated on your delivery’s journey from collection to final drop-off.</p>								</div>
 				</div>
 		<div class="elementor-element elementor-element-e69a811 e-con-full container e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no elementor-invisible e-con e-child" data-id="e69a811" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
 				<div class="elementor-element elementor-element-24c9843 icon elementor-view-default elementor-widget elementor-widget-icon" data-id="24c9843" data-element_type="widget" data-e-type="widget" data-widget_type="icon.default">
@@ -305,7 +305,7 @@ UK-wide.</h2>				</div>
 					<h2 class="elementor-heading-title elementor-size-default">24/7 AVAILABILITY
 </h2>				</div>
 				<div class="elementor-element elementor-element-f1d663c text elementor-widget elementor-widget-text-editor" data-id="f1d663c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>Our dedicated team is available around the clock to handle urgent requests and last-minute bookings. Day or night, weâ€™re ready to move when your business needs us most.</p>								</div>
+									<p>Our dedicated team is available around the clock to handle urgent requests and last-minute bookings. Day or night, we’re ready to move when your business needs us most.</p>								</div>
 				</div>
 		<div class="elementor-element elementor-element-2261d04 e-con-full container e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no elementor-invisible e-con e-child" data-id="2261d04" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
 				<div class="elementor-element elementor-element-c7b46fd icon elementor-view-default elementor-widget elementor-widget-icon" data-id="c7b46fd" data-element_type="widget" data-e-type="widget" data-widget_type="icon.default">
@@ -318,7 +318,7 @@ UK-wide.</h2>				</div>
 					<h2 class="elementor-heading-title elementor-size-default">NATIONWIDE RELIABILITY
 </h2>				</div>
 				<div class="elementor-element elementor-element-e0c92d2 text elementor-widget elementor-widget-text-editor" data-id="e0c92d2" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>With experienced drivers and a modern fleet covering the entire UK, we guarantee dependable, on-time deliveries â€” backed by competitive pricing and professional service.</p>								</div>
+									<p>With experienced drivers and a modern fleet covering the entire UK, we guarantee dependable, on-time deliveries — backed by competitive pricing and professional service.</p>								</div>
 				</div>
 					</div>
 				</div>
