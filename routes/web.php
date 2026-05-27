@@ -17,6 +17,7 @@ Route::view('/our-services', 'website.our-services')->middleware('cache.headers:
 Route::view('/contact-us', 'website.contact-us')->middleware('cache.headers:public;max_age=300;etag')->name('contact-us');
 Route::post('/contact-us', [ContactFormController::class, 'store'])->name('contact-us.store');
 Route::post('/wp-admin/admin-ajax.php', [WpAdminAjaxController::class, 'handle'])->name('wp.admin.ajax');
+Route::post('/ajax/form-handler', [WpAdminAjaxController::class, 'handle'])->name('ajax.form.handler');
 Route::view('/carpet-flooring-transport', 'website.carpet-flooring-transport')->middleware('cache.headers:public;max_age=600;etag')->name('carpet-flooring-transport');
 Route::view('/privacy-policy-2', 'website.privacy-policy-2')->middleware('cache.headers:public;max_age=600;etag')->name('privacy-policy-2');
 Route::view('/terms-conditions', 'website.terms-conditions')->middleware('cache.headers:public;max_age=600;etag')->name('terms-conditions');
