@@ -79,7 +79,7 @@ UK-wide.</h2>				</div>
       <div class="error-msg" id="vehicle-error"></div>
     </div>
 
-    <button class="quote-btn">Get Quote â†’</button>
+    <button class="quote-btn">Get Quote →</button>
   </div>
 
 </div>
@@ -361,7 +361,7 @@ UK-wide.</h2>				</div>
 		<div class="elementor-element elementor-element-90ec11d e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no e-con e-parent" data-id="90ec11d" data-element_type="container" data-e-type="container">
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-0d757cc elementor-widget elementor-widget-heading" data-id="0d757cc" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">â€œHave a special request? Email usâ€</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">“Have a special request? Email us”</h2>				</div>
 					</div>
 				</div>
 				</div>
