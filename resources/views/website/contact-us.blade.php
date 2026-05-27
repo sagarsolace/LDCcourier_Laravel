@@ -87,3 +87,81 @@
 HTML; !!}
 @endsection
 
+@push('styles')
+<style>
+.ldc-contact-toast {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    z-index: 99999;
+    max-width: 360px;
+    width: calc(100% - 32px);
+    border-radius: 10px;
+    padding: 12px 14px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.4;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(12px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.ldc-contact-toast.is-show {
+    transform: translateY(0);
+    opacity: 1;
+}
+.ldc-contact-toast.is-success {
+    background: #1f9d55;
+}
+.ldc-contact-toast.is-error {
+    background: #d93025;
+}
+</style>
+@endpush
+
+@push('scripts')
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var formWrap = document.querySelector('.elementor-element-092f584');
+    if (!formWrap) return;
+
+    var form = formWrap.querySelector('form.wpr-form');
+    if (!form) return;
+
+    var toast = document.createElement('div');
+    toast.className = 'ldc-contact-toast';
+    document.body.appendChild(toast);
+
+    var timerId = null;
+    function showToast(message, type) {
+        toast.textContent = message || (type === 'success' ? 'Submission successful' : 'Submission failed');
+        toast.classList.remove('is-success', 'is-error');
+        toast.classList.add(type === 'success' ? 'is-success' : 'is-error', 'is-show');
+        if (timerId) window.clearTimeout(timerId);
+        timerId = window.setTimeout(function () {
+            toast.classList.remove('is-show');
+        }, 3500);
+    }
+
+    var observer = new MutationObserver(function (mutations) {
+        mutations.forEach(function (mutation) {
+            mutation.addedNodes.forEach(function (node) {
+                if (!(node instanceof HTMLElement)) return;
+                if (!node.classList.contains('wpr-submit-notice')) return;
+
+                var isSuccess = node.classList.contains('wpr-submit-success');
+                var isError = node.classList.contains('wpr-submit-error');
+                if (!isSuccess && !isError) return;
+
+                showToast(node.textContent.trim(), isSuccess ? 'success' : 'error');
+                node.remove();
+            });
+        });
+    });
+
+    observer.observe(form, { childList: true, subtree: false });
+});
+</script>
+@endpush
+

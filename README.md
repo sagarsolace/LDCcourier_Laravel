@@ -74,9 +74,23 @@ php c:\xampp\htdocs\ldccourier\wordpress-src\fix-blade-urls.php
 
 Requires Apache/MySQL running and `http://localhost/ldccourier-wp` working.
 
+## Performance cache commands
+
+Use Laravel built-in caches in production:
+
+```bash
+composer run optimize:production
+```
+
+Clear caches during local development:
+
+```bash
+php artisan optimize:clear
+```
+
 ## Notes
 
-- **Contact form** markup is preserved; submissions are not wired (no backend).
+- **Contact form** now posts to Laravel and can send via Brevo API (`BREVO_API_KEY`).
 - **Portal links** (`portal.ldccourier.co.uk`) remain external.
 - **Tracking / FAQ** pages were not in the live sitemap; add routes/views if you create them in WordPress later.
 - Large `wordpress-site.zip` is under `wordpress-src/` for reference only.

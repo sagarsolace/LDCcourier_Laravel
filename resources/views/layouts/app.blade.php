@@ -15,6 +15,8 @@
     <link rel="icon" href="{{ asset('assets/images/2025/11/cropped-logo_footer-32x32.png') }}" sizes="32x32">
     <link rel="icon" href="{{ asset('assets/images/2025/11/cropped-logo_footer-192x192.png') }}" sizes="192x192">
     <link rel="apple-touch-icon" href="{{ asset('assets/images/2025/11/cropped-logo_footer-180x180.png') }}">
+    <link rel="dns-prefetch" href="//maps.google.com">
+    <link rel="preconnect" href="https://maps.google.com" crossorigin>
 
     <link rel="stylesheet" href="{{ asset('assets/wp-content/litespeed/css/342595e036c3c420bdbafddab4b4e3e2.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/images/elementor/css/post-1042.css') }}">
@@ -34,6 +36,7 @@
     @if ($elementorPageId === '1920' || request()->is('/'))
         <link rel="stylesheet" href="{{ asset('assets/images/elementor/css/post-1920.css') }}">
     @endif
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive-overrides.css') }}">
 
     @stack('styles')
 </head>

@@ -1,0 +1,63 @@
+/* Safe responsive overrides to preserve desktop layout and behavior */
+html,
+body {
+    overflow-x: hidden;
+}
+
+img,
+iframe,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.e-con-inner,
+.elementor-container {
+    width: min(100%, 1200px);
+    box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+    .e-con-inner,
+    .elementor-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .elementor-heading-title br {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        -webkit-text-size-adjust: 100%;
+    }
+
+    .e-con-inner,
+    .elementor-container {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .elementor-heading-title {
+        font-size: clamp(1.3rem, 5vw, 1.9rem);
+        line-height: 1.3;
+        word-break: break-word;
+    }
+
+    .elementor-button,
+    .wpr-button {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .wpr-form .wpr-column {
+        width: 100% !important;
+    }
+
+    .wpr-form-field-textual {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
