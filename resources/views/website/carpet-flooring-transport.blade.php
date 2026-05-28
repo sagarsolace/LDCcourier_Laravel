@@ -1,11 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Carpet & Flooring Transport | LDC Courier')
+@section('title', 'Carpet Transport Kidderminster & Birmingham | LDC Courier')
 @section('body_class', 'wp-singular page-template page-template-elementor_header_footer page page-id-1790 custom-background wp-custom-logo wp-embed-responsive wp-theme-inspiro post-display-content-excerpt title-tagline-hidden header-search-hidden colors-custom elementor-default elementor-template-full-width elementor-kit-1042 elementor-page elementor-page-1790 inspiro-page-ready e--ua-blink e--ua-chrome e--ua-webkit inspiro-page-loaded')
-
-@push('styles')
-<link rel="stylesheet" href="{{ asset('assets/wp-content/litespeed/css/10128196fe9671c72190d2813d36db7e.css') }}">
-@endpush
 
 @section('content')
 {!! <<<'HTML'

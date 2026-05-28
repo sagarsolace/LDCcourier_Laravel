@@ -16,6 +16,13 @@
     $robots = $page['robots'] ?? 'max-image-preview:large';
     $breadcrumbName = $page['breadcrumb'] ?? $title;
     $organization = config('seo.organization');
+    $services = $page['services'] ?? [];
+    $areasServed = [
+        ['@type' => 'City', 'name' => 'Kidderminster'],
+        ['@type' => 'City', 'name' => 'Worcester'],
+        ['@type' => 'City', 'name' => 'Birmingham'],
+        ['@type' => 'Country', 'name' => 'United Kingdom'],
+    ];
 
     $graph = [
         [
@@ -58,12 +65,7 @@
                 'addressRegion' => $organization['address']['addressRegion'] ?? 'Worcestershire',
                 'addressCountry' => $organization['address']['addressCountry'] ?? 'GB',
             ],
-            'areaServed' => [
-                ['@type' => 'City', 'name' => 'Kidderminster'],
-                ['@type' => 'City', 'name' => 'Worcester'],
-                ['@type' => 'City', 'name' => 'Birmingham'],
-                ['@type' => 'Country', 'name' => 'United Kingdom'],
-            ],
+            'areaServed' => $areasServed,
             'logo' => [
                 '@type' => 'ImageObject',
                 'url' => $logo,
@@ -100,8 +102,20 @@
                 'width' => config('seo.default_image_width'),
                 'height' => config('seo.default_image_height'),
             ],
+            'areaServed' => $areasServed,
         ],
     ];
+
+    if (! empty($services)) {
+        $graph[3]['about'] = array_map(static fn ($service) => [
+            '@type' => 'Service',
+            'name' => $service,
+            'provider' => [
+                '@id' => $siteUrl . '/#organization',
+            ],
+            'areaServed' => $areasServed,
+        ], $services);
+    }
 
     $schema = [
         '@context' => 'https://schema.org',
@@ -115,7 +129,7 @@
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $description }}">
 <meta property="og:locale" content="{{ config('seo.locale') }}">
-<meta property="og:site_name" content="{{ config('seo.site_name') }} - {{ config('seo.site_name') }}">
+<meta property="og:site_name" content="{{ config('seo.site_name') }}">
 <meta property="og:type" content="{{ $ogType }}">
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $description }}">
@@ -124,8 +138,10 @@
 <meta property="og:image:secure_url" content="{{ $image }}">
 <meta property="og:image:width" content="{{ config('seo.default_image_width') }}">
 <meta property="og:image:height" content="{{ config('seo.default_image_height') }}">
-<meta property="article:published_time" content="2026-03-25T12:06:25+00:00" />
-		<meta property="article:modified_time" content="2026-04-25T07:16:06+00:00" />
+@if ($ogType === 'article')
+<meta property="article:published_time" content="2026-03-25T12:06:25+00:00">
+<meta property="article:modified_time" content="2026-04-25T07:16:06+00:00">
+@endif
 <meta name="twitter:card" content="{{ config('seo.twitter_card') }}">
 <meta name="twitter:title" content="{{ $title }}">
 <meta name="twitter:description" content="{{ $description }}">

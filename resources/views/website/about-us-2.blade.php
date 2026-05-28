@@ -1,14 +1,11 @@
 @extends('layouts.app')
 
-@section('title', 'About Us | LDC Courier')
+@section('title', 'About LDC Courier | Kidderminster Courier Service')
 @section('body_class', 'wp-singular page-template page-template-elementor_header_footer page page-id-1203 custom-background wp-custom-logo wp-embed-responsive wp-theme-inspiro post-display-content-excerpt title-tagline-hidden header-search-hidden colors-custom elementor-default elementor-template-full-width elementor-kit-1042 elementor-page elementor-page-1203 inspiro-page-ready e--ua-blink e--ua-chrome e--ua-webkit inspiro-page-loaded')
-
-@push('styles')
-<link rel="stylesheet" href="{{ asset('assets/wp-content/litespeed/css/c0fd3974d479b28a885a449dfbdcdcbe.css') }}">
-@endpush
 
 @section('content')
 {!! <<<'HTML'
+<h1 class="elementor-screen-only">Kidderminster Courier Service for Same Day and Dedicated Transport</h1>
 <div data-elementor-type="wp-page" data-elementor-id="1203" class="elementor elementor-1203" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-3a29e29 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no e-con e-parent e-lazyloaded" data-id="3a29e29" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
@@ -100,7 +97,7 @@
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-1a88aa5 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no elementor-invisible e-con e-child" data-id="1a88aa5" data-element_type="container" data-e-type="container" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
 				<div class="elementor-element elementor-element-a2cfef3 elementor-invisible elementor-widget elementor-widget-image" data-id="a2cfef3" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomInRight&quot;}" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="950" height="950" src="/assets/images/2025/11/poza_07.jpg" class="attachment-large size-large wp-image-36" alt="" srcset="/assets/images/2025/11/poza_07.jpg 1000w, /assets/images/2025/11/poza_07-300x300.jpg 300w, /assets/images/2025/11/poza_07-150x150.jpg 150w" sizes="100vw">															</div>
+															<img loading="lazy" decoding="async" width="950" height="950" src="/assets/images/2025/11/poza_07.jpg" class="attachment-large size-large wp-image-36" alt="LDC Courier driver supporting UK courier deliveries" srcset="/assets/images/2025/11/poza_07.jpg 1000w, /assets/images/2025/11/poza_07-300x300.jpg 300w, /assets/images/2025/11/poza_07-150x150.jpg 150w" sizes="100vw">															</div>
 				</div>
 		<div class="elementor-element elementor-element-0bf4222 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no elementor-invisible e-con e-child" data-id="0bf4222" data-element_type="container" data-e-type="container" data-settings="{&quot;animation&quot;:&quot;slideInRight&quot;}">
 				<div class="elementor-element elementor-element-23d4873 elementor-invisible elementor-widget elementor-widget-heading" data-id="23d4873" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;slideInLeft&quot;}" data-widget_type="heading.default">
@@ -210,7 +207,7 @@
 				</div>
 		<div class="elementor-element elementor-element-22d54bf e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no elementor-invisible e-con e-child" data-id="22d54bf" data-element_type="container" data-e-type="container" data-settings="{&quot;animation&quot;:&quot;slideInRight&quot;}">
 				<div class="elementor-element elementor-element-bad2f05 elementor-widget elementor-widget-image" data-id="bad2f05" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="950" height="950" src="/assets/images/2025/11/poza_08.jpg" class="attachment-large size-large wp-image-37" alt="" srcset="/assets/images/2025/11/poza_08.jpg 1000w, /assets/images/2025/11/poza_08-300x300.jpg 300w, /assets/images/2025/11/poza_08-150x150.jpg 150w" sizes="100vw">															</div>
+															<img loading="lazy" decoding="async" width="950" height="950" src="/assets/images/2025/11/poza_08.jpg" class="attachment-large size-large wp-image-37" alt="Courier vehicle ready for dedicated transport collections" srcset="/assets/images/2025/11/poza_08.jpg 1000w, /assets/images/2025/11/poza_08-300x300.jpg 300w, /assets/images/2025/11/poza_08-150x150.jpg 150w" sizes="100vw">															</div>
 				</div>
 					</div>
 				</div>
@@ -218,7 +215,7 @@
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-3699fa4 e-con-full elementor-hidden-mobile e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no elementor-invisible e-con e-child" data-id="3699fa4" data-element_type="container" data-e-type="container" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
 				<div class="elementor-element elementor-element-bde56b9 elementor-widget elementor-widget-image" data-id="bde56b9" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="950" height="634" src="/assets/images/2026/03/WhatsApp-Image-2026-03-04-at-8.48.23-PM-1024x683.jpeg" class="attachment-large size-large wp-image-1808" alt="" srcset="/assets/images/2026/03/WhatsApp-Image-2026-03-04-at-8.48.23-PM-1024x683.jpeg 1024w, /assets/images/2026/03/WhatsApp-Image-2026-03-04-at-8.48.23-PM-300x200.jpeg 300w, /assets/images/2026/03/WhatsApp-Image-2026-03-04-at-8.48.23-PM.jpeg 1536w" sizes="100vw">															</div>
+															<img loading="lazy" decoding="async" width="950" height="634" src="/assets/images/2026/03/WhatsApp-Image-2026-03-04-at-8.48.23-PM-1024x683.jpeg" class="attachment-large size-large wp-image-1808" alt="LDC Courier fleet for Luton van and tail lift deliveries" srcset="/assets/images/2026/03/WhatsApp-Image-2026-03-04-at-8.48.23-PM-1024x683.jpeg 1024w, /assets/images/2026/03/WhatsApp-Image-2026-03-04-at-8.48.23-PM-300x200.jpeg 300w, /assets/images/2026/03/WhatsApp-Image-2026-03-04-at-8.48.23-PM.jpeg 1536w" sizes="100vw">															</div>
 				</div>
 		<div class="elementor-element elementor-element-2e44589 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no elementor-invisible e-con e-child" data-id="2e44589" data-element_type="container" data-e-type="container" data-settings="{&quot;animation&quot;:&quot;slideInRight&quot;}">
 				<div class="elementor-element elementor-element-8e0c251 elementor-invisible elementor-widget elementor-widget-heading" data-id="8e0c251" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;slideInLeft&quot;}" data-widget_type="heading.default">
@@ -267,4 +264,3 @@
 				</div>
 HTML; !!}
 @endsection
-

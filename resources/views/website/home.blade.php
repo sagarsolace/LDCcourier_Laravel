@@ -1,8 +1,8 @@
 @extends('layouts.home-app')
 
-@section('title', 'HOME - Transport & Courier Services')
+@section('title', 'Same Day Courier Kidderminster | LDC Courier')
 
-@section('meta_description', 'Same day courier in Kidderminster and across the UK. Fast delivery including pallets, carpets and dedicated vans. Get an instant quote today.')
+@section('meta_description', 'Same day courier in Kidderminster with fast collection for Worcester, Birmingham and UK deliveries. Book dedicated vans, pallets and Luton van transport.')
 
 @section('body_class', 'home wp-singular page-template page-template-elementor_header_footer page page-id-1920 custom-background wp-custom-logo wp-embed-responsive wp-theme-inspiro inspiro-front-page page-layout-full-width post-display-content-excerpt title-tagline-hidden header-search-hidden colors-custom elementor-default elementor-template-full-width elementor-kit-1042 elementor-page elementor-page-1920 inspiro-page-ready e--ua-blink e--ua-chrome e--ua-webkit inspiro-page-loaded')
 
@@ -129,7 +129,7 @@ UK-wide.</h2>				</div>
 				</div>
 		<div class="elementor-element elementor-element-4dfb1ff e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no elementor-invisible e-con e-child" data-id="4dfb1ff" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
 				<div class="elementor-element elementor-element-8929925 elementor-widget elementor-widget-heading" data-id="8929925" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Same-Day Courier UK</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">Same-Day Courier Kidderminster</h2>				</div>
 				<div class="elementor-element elementor-element-2b1da72 elementor-widget elementor-widget-text-editor" data-id="2b1da72" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>Rapid Collection Within 60 Minutes</p>								</div>
 				<div class="elementor-element elementor-element-2ccf126 elementor-align-center elementor-widget elementor-widget-button" data-id="2ccf126" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
@@ -159,7 +159,7 @@ UK-wide.</h2>				</div>
 				</div>
 		<div class="elementor-element elementor-element-2dfc2c4 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no elementor-invisible e-con e-child" data-id="2dfc2c4" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
 				<div class="elementor-element elementor-element-0054f00 elementor-widget elementor-widget-heading" data-id="0054f00" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Pallet <br>Courier UK</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">Pallet <br>Delivery Kidderminster</h2>				</div>
 				<div class="elementor-element elementor-element-619df1c elementor-widget elementor-widget-text-editor" data-id="619df1c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>Luton Vans &amp; 7.5T Vehicles With Tail Lift</p>								</div>
 				<div class="elementor-element elementor-element-8620bef elementor-align-center elementor-widget elementor-widget-button" data-id="8620bef" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
@@ -339,7 +339,7 @@ UK-wide.</h2>				</div>
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-67a3840 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no elementor-invisible e-con e-child" data-id="67a3840" data-element_type="container" data-e-type="container" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
 				<div class="elementor-element elementor-element-b991c4d elementor-widget elementor-widget-image" data-id="b991c4d" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="585" height="390" src="/assets/wp-reference/young-manual-worker-unloading-cardboard-boxes-from-delivery-van-scaled-1-1.webp" class="attachment-large size-large wp-image-2029" alt="" srcset="/assets/images/2026/04/young-manual-worker-unloading-cardboard-boxes-from-delivery-van-scaled-1-1.webp 585w, /assets/images/2026/04/young-manual-worker-unloading-cardboard-boxes-from-delivery-van-scaled-1-1-300x200.webp 300w" sizes="100vw">															</div>
+															<img loading="lazy" decoding="async" width="585" height="390" src="/assets/wp-reference/young-manual-worker-unloading-cardboard-boxes-from-delivery-van-scaled-1-1.webp" class="attachment-large size-large wp-image-2029" alt="Courier unloading parcels from a delivery van" srcset="/assets/images/2026/04/young-manual-worker-unloading-cardboard-boxes-from-delivery-van-scaled-1-1.webp 585w, /assets/images/2026/04/young-manual-worker-unloading-cardboard-boxes-from-delivery-van-scaled-1-1-300x200.webp 300w" sizes="100vw">															</div>
 				</div>
 		<div class="elementor-element elementor-element-387ba9a e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no elementor-invisible e-con e-child" data-id="387ba9a" data-element_type="container" data-e-type="container" data-settings="{&quot;animation&quot;:&quot;slideInRight&quot;}">
 				<div class="elementor-element elementor-element-6b1b2aa elementor-widget elementor-widget-heading" data-id="6b1b2aa" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
