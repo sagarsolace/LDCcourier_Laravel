@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\ContactFormController;
-use App\Http\Controllers\BlogController;
 use App\Http\Controllers\WpAdminAjaxController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Response;
@@ -24,11 +23,13 @@ Route::view('/privacy-policy-2', 'website.privacy-policy-2')->middleware('cache.
 Route::view('/terms-conditions', 'website.terms-conditions')->middleware('cache.headers:public;max_age=600;etag')->name('terms-conditions');
 Route::view('/cookie-policy', 'website.cookie-policy')->middleware('cache.headers:public;max_age=600;etag')->name('cookie-policy');
 
-Route::get('/blog', [BlogController::class, 'index'])->middleware('cache.headers:public;max_age=600;etag')->name('blog');
-
 // Common aliases. Apache's public/.htaccess handles trailing slash removal.
 Route::redirect('/about-us', '/about-us-2', 301);
 Route::redirect('/services', '/our-services', 301);
+Route::redirect('/blog', '/', 301);
+Route::redirect('/sample-page', '/', 301);
+Route::redirect('/category/uncategorized', '/', 301);
+Route::redirect('/author/admin', '/', 301);
 
 Route::get('/sitemap.xml', function () {
     return Response::view('seo.sitemap', [

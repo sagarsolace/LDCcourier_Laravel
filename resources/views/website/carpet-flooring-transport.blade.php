@@ -9,6 +9,7 @@
 
 @section('content')
 {!! <<<'HTML'
+	<h1 class="elementor-screen-only">Carpet Transport Kidderminster and Birmingham</h1>
 	<div data-elementor-type="wp-page" data-elementor-id="1790" class="elementor elementor-1790" data-elementor-post-type="page">
 	<div class="elementor-element elementor-element-1503663 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no e-con e-parent e-lazyloaded" data-id="1503663" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 		<div class="e-con-inner">
@@ -19,7 +20,7 @@
 				<h2 class="elementor-heading-title elementor-size-default">Professional Carpet &amp; Flooring<br> Transport Across the UK</h2>
 			</div>
 			<div class="elementor-element elementor-element-5344897 elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-id="5344897" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<p>We provide reliable transport for carpets, vinyl flooring, laminate, and flooring materials across the UK.</p>
+				<p>We provide reliable carpet transport in Kidderminster, Birmingham, Worcester and across the UK for carpets, vinyl flooring, laminate, and flooring materials.</p>
 				<p>Our fleet includes Luton vans with tail lift and 7.5T curtain-side trucks, ideal for long and heavy carpet rolls or palletised flooring.</p>
 			</div>
 		</div>

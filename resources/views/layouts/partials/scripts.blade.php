@@ -1,6 +1,6 @@
-<script src="{{ asset('assets/wp-reference/jquery.min.js.download') }}"></script>
-<script src="{{ asset('assets/wp-reference/frontend.min.js.download') }}" id="wpr-addons-js-js"></script>
-<script src="{{ asset('assets/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js') }}"></script>
+<script src="{{ asset('assets/wp-reference/jquery.min.js.download') }}" defer></script>
+<script src="{{ asset('assets/wp-reference/frontend.min.js.download') }}" id="wpr-addons-js-js" defer></script>
+<script src="{{ asset('assets/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js') }}" defer></script>
 
 <script id="elementor-frontend-js-before">@include('layouts.partials.home-elementor-frontend-config')</script>
 <script id="elementor-pro-frontend-js-before">@include('layouts.partials.home-elementor-pro-config')</script>

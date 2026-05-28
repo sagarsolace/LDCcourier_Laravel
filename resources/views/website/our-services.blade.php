@@ -9,13 +9,14 @@
 
 @section('content')
 {!! <<<'HTML'
+<h1 class="elementor-screen-only">Same Day Courier, Pallet Delivery and Dedicated Van Courier Services</h1>
 <div data-elementor-type="wp-page" data-elementor-id="1305" class="elementor elementor-1305" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-7fca3e7 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no e-con e-parent e-lazyloaded" data-id="7fca3e7" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-e57fd5b elementor-widget elementor-widget-heading" data-id="e57fd5b" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 					<h2 class="elementor-heading-title elementor-size-default">SERVICES</h2>				</div>
 				<div class="elementor-element elementor-element-9f8785f elementor-widget elementor-widget-heading" data-id="9f8785f" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Key Features of our transport services</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">Key Features of our Kidderminster transport services</h2>				</div>
 					</div>
 				</div>
 		<div class="elementor-element elementor-element-e4fa6c2 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no e-con e-parent e-lazyloaded" data-id="e4fa6c2" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -28,7 +29,7 @@
 		</div>
 						</div>
 				<div class="elementor-element elementor-element-c85fc34 heading elementor-widget elementor-widget-heading" data-id="c85fc34" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Same-Day Courier UKSelling Services
+					<h2 class="elementor-heading-title elementor-size-default">Same-Day Courier Kidderminster, Worcester &amp; Birmingham
 </h2>				</div>
 				<div class="elementor-element elementor-element-074caca text elementor-widget elementor-widget-text-editor" data-id="074caca" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p><strong>Rapid collection within 60 minutes</strong></p><p>For urgent deliveries, our same-day UK courier service provides fast collection (typically within 60 minutes) and direct, non-stop transport to any destination in the UK. Ideal for time-sensitive goods, documents, machinery parts and commercial shipments.</p>								</div>
@@ -118,7 +119,7 @@
 				<div class="elementor-element elementor-element-eedf7ca heading elementor-widget elementor-widget-heading" data-id="eedf7ca" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 					<h2 class="elementor-heading-title elementor-size-default">Pallet Transport</h2>				</div>
 				<div class="elementor-element elementor-element-8660e0f text elementor-widget elementor-widget-text-editor" data-id="8660e0f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p data-start="828" data-end="923">Delivery of palletised freight across the UK.</p>								</div>
+									<p data-start="828" data-end="923">Pallet delivery from Kidderminster across Worcester, Birmingham and the UK.</p>								</div>
 				</div>
 		<div class="elementor-element elementor-element-8d24b82 e-con-full container e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no elementor-invisible e-con e-child" data-id="8d24b82" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
 				<div class="elementor-element elementor-element-938335a icon elementor-view-default elementor-widget elementor-widget-icon" data-id="938335a" data-element_type="widget" data-e-type="widget" data-widget_type="icon.default">
@@ -207,4 +208,3 @@
 				</div>
 HTML; !!}
 @endsection
-

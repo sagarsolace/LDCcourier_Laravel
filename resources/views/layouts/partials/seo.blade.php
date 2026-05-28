@@ -51,6 +51,19 @@
             'description' => $organization['description'],
             'url' => $siteUrl . '/',
             'telephone' => $organization['telephone'],
+            'email' => $organization['email'] ?? null,
+            'address' => [
+                '@type' => 'PostalAddress',
+                'addressLocality' => $organization['address']['addressLocality'] ?? 'Kidderminster',
+                'addressRegion' => $organization['address']['addressRegion'] ?? 'Worcestershire',
+                'addressCountry' => $organization['address']['addressCountry'] ?? 'GB',
+            ],
+            'areaServed' => [
+                ['@type' => 'City', 'name' => 'Kidderminster'],
+                ['@type' => 'City', 'name' => 'Worcester'],
+                ['@type' => 'City', 'name' => 'Birmingham'],
+                ['@type' => 'Country', 'name' => 'United Kingdom'],
+            ],
             'logo' => [
                 '@type' => 'ImageObject',
                 'url' => $logo,
@@ -94,6 +107,8 @@
         '@context' => 'https://schema.org',
         '@graph' => $graph,
     ];
+
+    $ogType = $path === '/' ? 'website' : 'article';
 @endphp
 <meta name="robots" content="{{ $robots }}">
 <link rel="canonical" href="{{ $canonical }}">
@@ -101,7 +116,7 @@
 <meta name="description" content="{{ $description }}">
 <meta property="og:locale" content="{{ config('seo.locale') }}">
 <meta property="og:site_name" content="{{ config('seo.site_name') }} - {{ config('seo.site_name') }}">
-<meta property="og:type" content="article">
+<meta property="og:type" content="{{ $ogType }}">
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $description }}">
 <meta property="og:url" content="{{ $canonical }}">

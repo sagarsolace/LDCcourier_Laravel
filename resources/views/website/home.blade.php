@@ -8,6 +8,7 @@
 
 @section('content')
 {!! <<<'HTML'
+<h1 class="elementor-screen-only">Same Day Courier Kidderminster, Worcester and Birmingham</h1>
 <div data-elementor-type="wp-page" data-elementor-id="1920" class="elementor elementor-1920" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-f58a9e8 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no e-con e-parent e-lazyloaded" data-id="f58a9e8" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
@@ -18,7 +19,7 @@ Secure.<br>
 
 UK-wide.</h2>				</div>
 				<div class="elementor-element elementor-element-d18a0bc elementor-widget elementor-widget-text-editor" data-id="d18a0bc" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>instant estimate and guest booking for sameday, next day, pallet and long distance courier service across the UK</p>								</div>
+									<p>instant estimate and guest booking for same day courier, next day, pallet and long distance courier service across Kidderminster, Worcester, Birmingham and the UK</p>								</div>
 		<div class="elementor-element elementor-element-fa558fc e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no e-con e-child" data-id="fa558fc" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-f0a6d66 elementor-widget elementor-widget-button" data-id="f0a6d66" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 										<a class="elementor-button elementor-button-link elementor-size-sm" href="https://portal.ldccourier.co.uk/order/where">

@@ -9,6 +9,7 @@
 
 @section('content')
 {!! <<<'HTML'
+<h1 class="elementor-screen-only">Contact Same Day Courier Kidderminster</h1>
 <div data-elementor-type="wp-page" data-elementor-id="1366" class="elementor elementor-1366" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-ad6605d e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no e-con e-parent e-lazyloaded" data-id="ad6605d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
@@ -164,4 +165,3 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 @endpush
-
