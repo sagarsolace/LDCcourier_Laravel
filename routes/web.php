@@ -4,6 +4,7 @@ use App\Http\Controllers\ContactFormController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\WpAdminAjaxController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Response;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,18 @@ Route::get('/blog', [BlogController::class, 'index'])->middleware('cache.headers
 // Common aliases. Apache's public/.htaccess handles trailing slash removal.
 Route::redirect('/about-us', '/about-us-2', 301);
 Route::redirect('/services', '/our-services', 301);
+
+Route::get('/sitemap.xml', function () {
+    return Response::view('seo.sitemap', [
+        'pages' => config('seo.pages'),
+        'siteUrl' => rtrim(config('seo.site_url'), '/'),
+    ])->header('Content-Type', 'application/xml');
+})->name('sitemap');
+
+Route::get('/robots.txt', function () {
+    $siteUrl = rtrim(config('seo.site_url'), '/');
+
+    return Response::make("User-agent: *\nAllow: /\n\nSitemap: {$siteUrl}/sitemap.xml\n", 200, [
+        'Content-Type' => 'text/plain',
+    ]);
+})->name('robots');

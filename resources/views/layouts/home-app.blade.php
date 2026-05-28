@@ -3,12 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="robots" content="max-image-preview:large">
-    <link rel="canonical" href="{{ url('/') }}">
-    <title>@yield('title', 'LDC Courier')</title>
-    @hasSection('meta_description')
-        <meta name="description" content="@yield('meta_description')">
-    @endif
+    @include('layouts.partials.seo')
 
     <link rel="icon" href="{{ asset('assets/images/2025/11/cropped-logo_black_little-32x32.png') }}" sizes="32x32">
     <link rel="icon" href="{{ asset('assets/images/2025/11/cropped-logo_black_little-192x192.png') }}" sizes="192x192">

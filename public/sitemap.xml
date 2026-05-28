@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url><loc>/</loc></url>
-    <url><loc>/about-us-2</loc></url>
-    <url><loc>/our-services</loc></url>
-    <url><loc>/contact-us</loc></url>
-    <url><loc>/carpet-flooring-transport</loc></url>
-    <url><loc>/privacy-policy-2</loc></url>
-    <url><loc>/terms-conditions</loc></url>
-    <url><loc>/cookie-policy</loc></url>
-    <url><loc>/blog</loc></url>
+    <url><loc>https://ldccourier.co.uk/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+    <url><loc>https://ldccourier.co.uk/about-us-2</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://ldccourier.co.uk/our-services</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://ldccourier.co.uk/contact-us</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://ldccourier.co.uk/carpet-flooring-transport</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://ldccourier.co.uk/privacy-policy-2</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+    <url><loc>https://ldccourier.co.uk/terms-conditions</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+    <url><loc>https://ldccourier.co.uk/cookie-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+    <url><loc>https://ldccourier.co.uk/blog</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
 </urlset>
