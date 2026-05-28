@@ -1,8 +1,6 @@
 <script src="{{ asset('assets/wp-reference/jquery.min.js.download') }}" defer></script>
 <script src="{{ asset('assets/wp-reference/frontend.min.js.download') }}" id="wpr-addons-js-js" defer></script>
 <script src="{{ asset('assets/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js') }}" defer></script>
-<script src="{{ asset('assets/wp-reference/mapsjs-core.js.download') }}" defer></script>
-<script src="{{ asset('assets/wp-reference/mapsjs-service.js.download') }}" defer></script>
 
 @if (!empty($elementorFrontendConfig))
 <script id="elementor-frontend-js-before">{!! $elementorFrontendConfig !!}</script>
