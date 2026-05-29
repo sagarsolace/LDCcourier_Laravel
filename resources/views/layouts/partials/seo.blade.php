@@ -149,6 +149,7 @@
 <script type="application/ld+json" class="aioseo-schema">@json($schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)</script>
 
 @if (config('seo.ga4_id'))
+    @php($ga4Id = config('seo.ga4_id'))
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -156,13 +157,94 @@
             'ad_storage': 'denied',
             'ad_user_data': 'denied',
             'ad_personalization': 'denied',
-            'analytics_storage': 'denied'
+            'analytics_storage': 'denied',
+            'wait_for_update': 500
         });
     </script>
 @endif
 
 @if (config('seo.cookieyes_id'))
     <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/{{ config('seo.cookieyes_id') }}/script.js"></script>
+@endif
+
+@if (config('seo.ga4_id') && config('seo.cookieyes_id'))
+    <script>
+        (function () {
+            var ga4Id = @json($ga4Id);
+
+            function applyGoogleConsent(detail) {
+                if (!detail || typeof gtag !== 'function') {
+                    return;
+                }
+
+                var accepted = detail.accepted || [];
+                var rejected = detail.rejected || [];
+                var update = {};
+
+                if (accepted.indexOf('analytics') !== -1) {
+                    update.analytics_storage = 'granted';
+                } else if (rejected.indexOf('analytics') !== -1) {
+                    update.analytics_storage = 'denied';
+                }
+
+                if (accepted.indexOf('advertisement') !== -1) {
+                    update.ad_storage = 'granted';
+                    update.ad_user_data = 'granted';
+                    update.ad_personalization = 'granted';
+                } else if (rejected.indexOf('advertisement') !== -1) {
+                    update.ad_storage = 'denied';
+                    update.ad_user_data = 'denied';
+                    update.ad_personalization = 'denied';
+                }
+
+                if (!Object.keys(update).length) {
+                    return;
+                }
+
+                gtag('consent', 'update', update);
+
+                if (update.analytics_storage === 'granted') {
+                    gtag('config', ga4Id, { send_page_view: true });
+                }
+            }
+
+            function applyFromStoredConsent() {
+                if (typeof window.getCkyConsent !== 'function') {
+                    return;
+                }
+
+                var consent = window.getCkyConsent();
+                if (!consent || !consent.categories) {
+                    return;
+                }
+
+                var accepted = [];
+                var rejected = [];
+
+                if (consent.categories.analytics) {
+                    accepted.push('analytics');
+                } else {
+                    rejected.push('analytics');
+                }
+
+                if (consent.categories.advertisement) {
+                    accepted.push('advertisement');
+                } else {
+                    rejected.push('advertisement');
+                }
+
+                applyGoogleConsent({ accepted: accepted, rejected: rejected });
+            }
+
+            document.addEventListener('cookieyes_consent_update', function (event) {
+                applyGoogleConsent(event.detail);
+            });
+
+            document.addEventListener('cookieyes_banner_loaded', function () {
+                applyFromStoredConsent();
+            });
+        })();
+    </script>
 @endif
 
 @if (config('seo.ga4_id'))
