@@ -148,13 +148,26 @@
 <meta name="twitter:image" content="{{ $image }}">
 <script type="application/ld+json" class="aioseo-schema">@json($schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)</script>
 
+@if (config('seo.ga4_id'))
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied'
+        });
+    </script>
+@endif
+
 @if (config('seo.cookieyes_id'))
     <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/{{ config('seo.cookieyes_id') }}/script.js"></script>
 @endif
 
 @if (config('seo.ga4_id'))
-    <script type="text/plain" data-cookiecategory="analytics" async src="https://www.googletagmanager.com/gtag/js?id={{ config('seo.ga4_id') }}"></script>
-    <script type="text/plain" data-cookiecategory="analytics">
+    <script type="text/plain" data-cookieyes="cookieyes-analytics" async src="https://www.googletagmanager.com/gtag/js?id={{ config('seo.ga4_id') }}"></script>
+    <script type="text/plain" data-cookieyes="cookieyes-analytics">
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
