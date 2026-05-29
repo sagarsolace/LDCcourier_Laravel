@@ -171,85 +171,141 @@
     <script>
         (function () {
             var ga4Id = @json($ga4Id);
+            var gtagScriptSelector = 'script[data-ldc-ga4="1"]';
 
-            function applyGoogleConsent(detail) {
-                if (!detail || typeof gtag !== 'function') {
-                    return;
+            function isAnalyticsGranted(detail) {
+                if (!detail) {
+                    return false;
                 }
 
-                var accepted = detail.accepted || [];
-                var rejected = detail.rejected || [];
-                var update = {};
-
-                if (accepted.indexOf('analytics') !== -1) {
-                    update.analytics_storage = 'granted';
-                } else if (rejected.indexOf('analytics') !== -1) {
-                    update.analytics_storage = 'denied';
+                if (Array.isArray(detail.accepted) && detail.accepted.indexOf('analytics') !== -1) {
+                    return true;
                 }
 
-                if (accepted.indexOf('advertisement') !== -1) {
-                    update.ad_storage = 'granted';
-                    update.ad_user_data = 'granted';
-                    update.ad_personalization = 'granted';
-                } else if (rejected.indexOf('advertisement') !== -1) {
-                    update.ad_storage = 'denied';
-                    update.ad_user_data = 'denied';
-                    update.ad_personalization = 'denied';
+                if (detail.categories && detail.categories.analytics) {
+                    return true;
                 }
 
-                if (!Object.keys(update).length) {
-                    return;
-                }
-
-                gtag('consent', 'update', update);
-
-                if (update.analytics_storage === 'granted') {
-                    gtag('config', ga4Id, { send_page_view: true });
-                }
+                return false;
             }
 
-            function applyFromStoredConsent() {
+            function isAdvertisementGranted(detail) {
+                if (!detail) {
+                    return false;
+                }
+
+                if (Array.isArray(detail.accepted) && detail.accepted.indexOf('advertisement') !== -1) {
+                    return true;
+                }
+
+                if (detail.categories && detail.categories.advertisement) {
+                    return true;
+                }
+
+                return false;
+            }
+
+            function consentDetailFromApi() {
                 if (typeof window.getCkyConsent !== 'function') {
-                    return;
+                    return null;
                 }
 
                 var consent = window.getCkyConsent();
                 if (!consent || !consent.categories) {
+                    return null;
+                }
+
+                return {
+                    accepted: Object.keys(consent.categories).filter(function (key) {
+                        return consent.categories[key];
+                    }),
+                    rejected: Object.keys(consent.categories).filter(function (key) {
+                        return !consent.categories[key];
+                    }),
+                    categories: consent.categories
+                };
+            }
+
+            function buildConsentUpdate(detail) {
+                return {
+                    analytics_storage: isAnalyticsGranted(detail) ? 'granted' : 'denied',
+                    ad_storage: isAdvertisementGranted(detail) ? 'granted' : 'denied',
+                    ad_user_data: isAdvertisementGranted(detail) ? 'granted' : 'denied',
+                    ad_personalization: isAdvertisementGranted(detail) ? 'granted' : 'denied'
+                };
+            }
+
+            function whenGtagLibraryReady(callback) {
+                var finished = false;
+
+                function finish() {
+                    if (finished) {
+                        return;
+                    }
+
+                    finished = true;
+                    callback();
+                }
+
+                var existing = document.querySelector(gtagScriptSelector) ||
+                    document.querySelector('script[src*="googletagmanager.com/gtag/js"]');
+
+                if (existing) {
+                    existing.addEventListener('load', finish);
+                    setTimeout(finish, 150);
                     return;
                 }
 
-                var accepted = [];
-                var rejected = [];
+                var script = document.createElement('script');
+                script.async = true;
+                script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(ga4Id);
+                script.setAttribute('data-ldc-ga4', '1');
+                script.addEventListener('load', finish);
+                script.addEventListener('error', finish);
+                document.head.appendChild(script);
+                setTimeout(finish, 1500);
+            }
 
-                if (consent.categories.analytics) {
-                    accepted.push('analytics');
-                } else {
-                    rejected.push('analytics');
+            function startGa4(detail) {
+                if (typeof gtag !== 'function' || !isAnalyticsGranted(detail)) {
+                    return;
                 }
 
-                if (consent.categories.advertisement) {
-                    accepted.push('advertisement');
-                } else {
-                    rejected.push('advertisement');
+                gtag('consent', 'update', buildConsentUpdate(detail));
+
+                whenGtagLibraryReady(function () {
+                    gtag('js', new Date());
+                    gtag('config', ga4Id, { send_page_view: true });
+                });
+            }
+
+            function handleConsent(detail) {
+                if (!detail) {
+                    return;
                 }
 
-                applyGoogleConsent({ accepted: accepted, rejected: rejected });
+                if (isAnalyticsGranted(detail)) {
+                    startGa4(detail);
+                    return;
+                }
+
+                if (typeof gtag === 'function') {
+                    gtag('consent', 'update', buildConsentUpdate(detail));
+                }
             }
 
             document.addEventListener('cookieyes_consent_update', function (event) {
-                applyGoogleConsent(event.detail);
+                handleConsent(event.detail);
             });
 
             document.addEventListener('cookieyes_banner_loaded', function () {
-                applyFromStoredConsent();
+                handleConsent(consentDetailFromApi());
             });
         })();
     </script>
-@endif
-
-@if (config('seo.ga4_id'))
-    <script type="text/plain" data-cookieyes="cookieyes-analytics" async src="https://www.googletagmanager.com/gtag/js?id={{ config('seo.ga4_id') }}"></script>
-    <script type="text/plain" data-cookieyes="cookieyes-analytics">
+@elseif (config('seo.ga4_id'))
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('seo.ga4_id') }}"></script>
+    <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
