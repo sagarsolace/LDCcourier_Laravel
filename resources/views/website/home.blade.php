@@ -128,7 +128,7 @@ UK-wide.</h2>				</div>
 				<div class="elementor-element elementor-element-2b1da72 elementor-widget elementor-widget-text-editor" data-id="2b1da72" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>Rapid Collection Within 60 Minutes</p>								</div>
 				<div class="elementor-element elementor-element-2ccf126 elementor-align-center elementor-widget elementor-widget-button" data-id="2ccf126" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="/our-services/">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="/our-services">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
@@ -143,7 +143,7 @@ UK-wide.</h2>				</div>
 				<div class="elementor-element elementor-element-cd363c3 elementor-widget elementor-widget-text-editor" data-id="cd363c3" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>Reliable National Coverage</p>								</div>
 				<div class="elementor-element elementor-element-6b6b84d elementor-align-center elementor-widget elementor-widget-button" data-id="6b6b84d" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="/our-services/">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="/our-services">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
@@ -158,7 +158,7 @@ UK-wide.</h2>				</div>
 				<div class="elementor-element elementor-element-619df1c elementor-widget elementor-widget-text-editor" data-id="619df1c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>Luton Vans &amp; 7.5T Vehicles With Tail Lift</p>								</div>
 				<div class="elementor-element elementor-element-8620bef elementor-align-center elementor-widget elementor-widget-button" data-id="8620bef" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="/about-us-2/">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="/about-us-2">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
@@ -173,7 +173,7 @@ UK-wide.</h2>				</div>
 				<div class="elementor-element elementor-element-d215dd1 elementor-widget elementor-widget-text-editor" data-id="d215dd1" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>Nation wide transport</p>								</div>
 				<div class="elementor-element elementor-element-1036f16 elementor-align-center elementor-widget elementor-widget-button" data-id="1036f16" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="/our-services/">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="/our-services">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
@@ -188,7 +188,7 @@ UK-wide.</h2>				</div>
 				<div class="elementor-element elementor-element-9306a6c elementor-widget elementor-widget-text-editor" data-id="9306a6c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>Day, night &amp; weekend</p>								</div>
 				<div class="elementor-element elementor-element-cfe918c elementor-align-center elementor-widget elementor-widget-button" data-id="cfe918c" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="/our-services/">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="/our-services">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
@@ -203,7 +203,7 @@ UK-wide.</h2>				</div>
 				<div class="elementor-element elementor-element-d8dcb4d elementor-widget elementor-widget-text-editor" data-id="d8dcb4d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>Goods in transit cover</p>								</div>
 				<div class="elementor-element elementor-element-0a28289 elementor-align-center elementor-widget elementor-widget-button" data-id="0a28289" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="/about-us-2/">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="/about-us-2">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
@@ -218,7 +218,7 @@ UK-wide.</h2>				</div>
 				<div class="elementor-element elementor-element-776007e elementor-widget elementor-widget-text-editor" data-id="776007e" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>Full visibility of your shipment</p>								</div>
 				<div class="elementor-element elementor-element-d487e9b elementor-align-center elementor-widget elementor-widget-button" data-id="d487e9b" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="/about-us-2/">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="/about-us-2">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
@@ -233,7 +233,7 @@ UK-wide.</h2>				</div>
 				<div class="elementor-element elementor-element-02d61bd elementor-widget elementor-widget-text-editor" data-id="02d61bd" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>Transparent quote</p>								</div>
 				<div class="elementor-element elementor-element-f055c00 elementor-align-center elementor-widget elementor-widget-button" data-id="f055c00" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="/about-us-2/">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="/about-us-2">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
@@ -248,11 +248,11 @@ UK-wide.</h2>				</div>
 				<div class="elementor-element elementor-element-89a0aea elementor-widget elementor-widget-text-editor" data-id="89a0aea" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>Nation wide Delivery</p>								</div>
 				<div class="elementor-element elementor-element-e7d9071 elementor-align-center elementor-widget elementor-widget-button" data-id="e7d9071" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="/about-us-2/">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="/carpet-flooring-transport">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
-									<span class="elementor-button-text">About Us</span>
+									<span class="elementor-button-text">Learn more</span>
 					</span>
 					</a>
 								</div>

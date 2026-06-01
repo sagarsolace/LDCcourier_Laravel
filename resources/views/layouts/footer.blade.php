@@ -12,13 +12,13 @@
 				<div class="elementor-element elementor-element-2ee7964 elementor-widget elementor-widget-heading" data-id="2ee7964" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 					<h2 class="elementor-heading-title elementor-size-default"><a href="/">Home</a></h2>				</div>
 				<div class="elementor-element elementor-element-e3637ec elementor-widget elementor-widget-heading" data-id="e3637ec" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default"><a href="/about-us-2/">About Us</a></h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default"><a href="/about-us-2">About Us</a></h2>				</div>
 				<div class="elementor-element elementor-element-c36e475 elementor-widget elementor-widget-heading" data-id="c36e475" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default"><a href="/our-services/">Our Services</a></h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default"><a href="/our-services">Our Services</a></h2>				</div>
 				<div class="elementor-element elementor-element-cf3e21d elementor-widget elementor-widget-heading" data-id="cf3e21d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 					<h2 class="elementor-heading-title elementor-size-default"><a href="https://portal.ldccourier.co.uk/order/where">Instant Quote</a></h2>				</div>
 				<div class="elementor-element elementor-element-adc2e72 elementor-widget elementor-widget-heading" data-id="adc2e72" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default"><a href="/contact-us/">Contact Us</a></h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default"><a href="/contact-us">Contact Us</a></h2>				</div>
 				</div>
 		<div class="elementor-element elementor-element-ca39b34 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no e-con e-child" data-id="ca39b34" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-2d79bdf elementor-widget elementor-widget-heading" data-id="2d79bdf" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -26,9 +26,9 @@
 				<div class="elementor-element elementor-element-ffc0cdf elementor-widget elementor-widget-heading" data-id="ffc0cdf" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 					<h2 class="elementor-heading-title elementor-size-default"><a href="/privacy-policy-2">Privacy &amp; policy </a></h2>				</div>
 				<div class="elementor-element elementor-element-5ec2a5d elementor-widget elementor-widget-heading" data-id="5ec2a5d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default"><a href="/terms-conditions/">Terms &amp; Conditions</a></h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default"><a href="/terms-conditions">Terms &amp; Conditions</a></h2>				</div>
 				<div class="elementor-element elementor-element-c1fc9b1 elementor-widget elementor-widget-heading" data-id="c1fc9b1" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default"><a href="/cookie-policy/">Cookie policy</a></h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default"><a href="/cookie-policy">Cookie policy</a></h2>				</div>
 				</div>
 		<div class="elementor-element elementor-element-360f9d0 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no e-con e-child" data-id="360f9d0" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-55e9ff1 elementor-widget elementor-widget-heading" data-id="55e9ff1" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -51,7 +51,7 @@
 						</ul>
 						</div>
 				<div class="elementor-element elementor-element-7c55751 elementor-widget elementor-widget-heading" data-id="7c55751" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default"><a href="/contact-us/">Contact </a></h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default"><a href="/contact-us">Contact </a></h2>				</div>
 				</div>
 		<div class="elementor-element elementor-element-9df6abd e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no e-con e-child" data-id="9df6abd" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-40aa998 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="40aa998" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
@@ -71,3 +71,5 @@
 		
 
 HTML; !!}
+
+@include('layouts.partials.site-nav-seo')
